@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --onyx: #151515;
+  --dusty-mauve: #a63d40;
+  --sunlit-clay: #e9b872;
+  --sage-green: #90a959;
+  --air-force-blue: #6494aa;
+}
+
+body {
+  background-color: #f8fafc;
+  color: var(--onyx);
+}
