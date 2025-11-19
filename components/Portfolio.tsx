@@ -6,29 +6,29 @@ import { Project } from '../types';
 const projects: Project[] = [
   {
     id: '1',
-    title: 'E-Commerce Dashboard',
-    category: 'Full Stack App',
-    description: 'A comprehensive admin dashboard for managing products, orders, and analytics. Built with real-time data sync.',
+    title: 'HubSpot CRM Implementation',
+    category: 'CRM Development',
+    description: 'Complete CRM setup with custom properties, automated workflows, and sales pipeline optimization. Integrated with third-party tools for seamless data flow.',
     imageUrl: 'https://picsum.photos/600/400?random=1',
-    technologies: ['React', 'TypeScript', 'Node.js', 'Chart.js'],
+    technologies: ['HubSpot CRM', 'Workflows', 'Custom Properties', 'Integrations'],
     demoUrl: '#'
   },
   {
     id: '2',
-    title: 'AI Content Generator',
-    category: 'AI Integration',
-    description: 'A SaaS platform helping writers generate blog posts using Gemini API. Features include tone adjustment and SEO checking.',
+    title: 'Custom HubSpot Theme Development',
+    category: 'CMS Development',
+    description: 'Fully responsive CMS theme built with HubL templating. Features modular components, drag-and-drop sections, and optimized for performance.',
     imageUrl: 'https://picsum.photos/600/400?random=2',
-    technologies: ['Next.js', 'Gemini API', 'Tailwind', 'Stripe'],
+    technologies: ['HubL', 'HubSpot CMS', 'JavaScript', 'CSS'],
     demoUrl: '#'
   },
   {
     id: '3',
-    title: 'Finance Tracker',
-    category: 'Mobile Web App',
-    description: 'Personal finance management tool with categorization, budget setting, and visual spending reports.',
+    title: 'HubSpot API Integration',
+    category: 'API Development',
+    description: 'Custom integration connecting HubSpot with external ERP system. Real-time data synchronization for contacts, deals, and product inventory.',
     imageUrl: 'https://picsum.photos/600/400?random=3',
-    technologies: ['React', 'Firebase', 'PWA', 'D3.js'],
+    technologies: ['HubSpot API', 'Node.js', 'REST API', 'Webhooks'],
     demoUrl: '#'
   }
 ];

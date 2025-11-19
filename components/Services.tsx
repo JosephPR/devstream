@@ -7,38 +7,38 @@ import { Service } from '../types';
 const services: Service[] = [
   {
     id: '1',
-    title: 'Frontend Architecture',
-    description: 'Building scalable, responsive SPAs using React, TypeScript, and Tailwind. Focusing on performance and accessibility.',
+    title: 'HubSpot CMS Development',
+    description: 'Custom themes and modules tailored to your brand. Pixel-perfect implementation from Figma to HubSpot CMS.',
     icon: Layout
   },
   {
     id: '2',
-    title: 'Backend Development',
-    description: 'Robust API development with Node.js, Express, and PostgreSQL. Secure authentication and data management.',
-    icon: Server
-  },
-  {
-    id: '3',
-    title: 'Database Management',
-    description: 'Designing and optimizing relational and NoSQL databases for high performance and scalability.',
+    title: 'CRM Integration',
+    description: 'Seamless integrations between HubSpot and your existing tech stack (Salesforce, NetSuite, custom apps).',
     icon: Database
   },
   {
-    id: '4',
-    title: 'Mobile First Design',
-    description: 'Ensuring your application looks and feels amazing on every device, from large desktops to smartphones.',
-    icon: Smartphone
-  },
-  {
-    id: '5',
-    title: 'Performance Optimization',
-    description: 'Auditing and optimizing web vitals. Fast load times, code splitting, and efficient asset delivery.',
+    id: '3',
+    title: 'Custom App Development',
+    description: 'Building private and public HubSpot apps to extend portal functionality and automate complex business logic.',
     icon: Code
   },
   {
+    id: '4',
+    title: 'HubSpot Migrations',
+    description: 'Safe and efficient migration of your website, blog, and data from WordPress, Drupal, or other CMS to HubSpot.',
+    icon: Server
+  },
+  {
+    id: '5',
+    title: 'Workflow Automation',
+    description: 'Advanced workflow setup to automate marketing, sales, and service processes, saving your team time.',
+    icon: Smartphone
+  },
+  {
     id: '6',
-    title: 'Global Deployment',
-    description: 'Deploying applications to cloud platforms like AWS, Azure, or Google Cloud for global reach and reliability.',
+    title: 'HubSpot API Development',
+    description: 'Leveraging the HubSpot API to build custom dashboards, reporting tools, and external data syncs.',
     icon: Globe
   }
 ];

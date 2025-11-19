@@ -37,9 +37,9 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-8"
         >
-          Building the Future of <br />
+          Mastering the Art of <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-air-force-blue to-dusty-mauve">
-            Digital Experiences
+            HubSpot Development
           </span>
         </motion.h1>
         
@@ -49,8 +49,8 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="max-w-2xl mx-auto text-lg md:text-xl text-slate-600 mb-10 leading-relaxed"
         >
-          I'm a Senior Full-Stack Engineer specializing in scalable React applications, 
-          interactive UI/UX, and high-performance backend systems. Let's turn your vision into code.
+          I'm a HubSpot Certified Developer specializing in custom themes, complex CRM integrations, 
+          and scalable CMS architectures. Let's unlock the full potential of your HubSpot portal.
         </motion.p>
 
         <motion.div 
@@ -93,12 +93,12 @@ const Hero: React.FC = () => {
         >
             <p className="text-sm text-slate-500 mb-6 uppercase tracking-wider font-semibold">Trusted Tech Stack</p>
             <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                <span className="text-xl font-bold text-slate-600">React 18</span>
-                <span className="text-xl font-bold text-slate-600">TypeScript</span>
-                <span className="text-xl font-bold text-slate-600">Tailwind CSS</span>
+                <span className="text-xl font-bold text-slate-600">HubSpot CMS</span>
+                <span className="text-xl font-bold text-slate-600">HubL</span>
+                <span className="text-xl font-bold text-slate-600">React</span>
                 <span className="text-xl font-bold text-slate-600">Node.js</span>
-                <span className="text-xl font-bold text-slate-600">Next.js</span>
-                <span className="text-xl font-bold text-slate-600">Gemini API</span>
+                <span className="text-xl font-bold text-slate-600">GraphQL</span>
+                <span className="text-xl font-bold text-slate-600">Serverless</span>
             </div>
         </motion.div>
       </div>
